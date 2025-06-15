@@ -1,24 +1,23 @@
-# README
+# Advanced Blog (Rails Lab)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails project for a blogging system built as part of the **Ruby on Rails training lab**.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 📌 Lab Goals
 
-* System dependencies
+- Install and configure a Rails project with PostgreSQL.
+- Generate models for Users, Posts, and Comments.
+- Establish ActiveRecord relationships.
+- Manually implement controllers and routes.
+- Build basic views and test CRUD operations.
 
-* Configuration
+---
 
-* Database creation
+## 🛠️ Setup Instructions
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. **Install Ruby & Rails** (on Windows or Ubuntu).
+2. **Create new Rails project with PostgreSQL**:
+   ```bash
+   rails new advanced_blog -d postgresql
+   cd advanced_blog
