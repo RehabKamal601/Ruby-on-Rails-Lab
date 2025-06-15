@@ -21,3 +21,4 @@ This is a Ruby on Rails project for a blogging system built as part of the **Rub
    ```bash
    rails new advanced_blog -d postgresql
    cd advanced_blog
+   
